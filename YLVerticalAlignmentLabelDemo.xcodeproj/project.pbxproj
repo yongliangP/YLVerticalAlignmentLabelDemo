@@ -13,6 +13,7 @@
 		BA34089E1D6303A700CBF174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA34089C1D6303A700CBF174 /* Main.storyboard */; };
 		BA3408A01D6303A700CBF174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA34089F1D6303A700CBF174 /* Assets.xcassets */; };
 		BA3408A31D6303A700CBF174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3408A11D6303A700CBF174 /* LaunchScreen.storyboard */; };
+		BA3408B01D63042D00CBF174 /* YLVerticalAlignmentLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3408AF1D63042D00CBF174 /* YLVerticalAlignmentLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BA34089F1D6303A700CBF174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA3408A21D6303A700CBF174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA3408A41D6303A700CBF174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3408AE1D63042D00CBF174 /* YLVerticalAlignmentLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLVerticalAlignmentLabel.h; sourceTree = "<group>"; };
+		BA3408AF1D63042D00CBF174 /* YLVerticalAlignmentLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLVerticalAlignmentLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		BA3408921D6303A700CBF174 /* YLVerticalAlignmentLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BA3408AA1D6303E500CBF174 /* YLLabel */,
 				BA3408961D6303A700CBF174 /* AppDelegate.h */,
 				BA3408971D6303A700CBF174 /* AppDelegate.m */,
 				BA3408991D6303A700CBF174 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				BA3408941D6303A700CBF174 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA3408AA1D6303E500CBF174 /* YLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BA3408AE1D63042D00CBF174 /* YLVerticalAlignmentLabel.h */,
+				BA3408AF1D63042D00CBF174 /* YLVerticalAlignmentLabel.m */,
+			);
+			path = YLLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 				BA34089B1D6303A700CBF174 /* ViewController.m in Sources */,
 				BA3408981D6303A700CBF174 /* AppDelegate.m in Sources */,
 				BA3408951D6303A700CBF174 /* main.m in Sources */,
+				BA3408B01D63042D00CBF174 /* YLVerticalAlignmentLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
